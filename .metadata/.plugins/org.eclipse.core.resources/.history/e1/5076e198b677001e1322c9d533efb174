@@ -1,0 +1,5 @@
+package com.weatherapp.weatherentities;
+
+public class Astro {
+
+}

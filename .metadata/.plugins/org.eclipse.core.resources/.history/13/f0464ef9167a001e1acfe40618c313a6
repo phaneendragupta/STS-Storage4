@@ -1,0 +1,7 @@
+package com.weatherapp.services;
+
+public interface AuthenticationService {
+	String signUp(SignUpRequest request) throws UserFoundException;
+
+	JwtAuthResponse signIn(SignInRequest request) throws Exception,InvalidCredentialsException;
+}
